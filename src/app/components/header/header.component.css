@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header .title, .city{
+    color: #4B77BE;
+}
+
+header .temp{
+    color: #3F3D56;
+}

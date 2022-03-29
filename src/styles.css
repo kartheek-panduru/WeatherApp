@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(116.82deg, #ADD8E6 0%, #FFFFFF 100%);
+    /* height: 100%; */
+    margin: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* .leftside, .rightside{
+    height: 50vh;
+    width: 100%;
+} */
+.leftside{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightside{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+
+    background: #FFFFFF;
+    max-width: 660px;
+    max-height: 324px;
+    border-radius: 10px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* width: 100vw;
+    height: 100vh; */
+    padding: 15px;
+    margin-top: 15px;
+
+    background: #FFFFFF;
+    max-width: 660px;
+    max-height: 96px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+.search-container input{
+    width: 408px;
+    height: 64px;
+    padding: 0.5em;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.search-container button{
+    width: 204px;
+    height: 64px;
+    background: #4B77BE;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.search-container button:hover{
+    background: #3487d4;
+}
